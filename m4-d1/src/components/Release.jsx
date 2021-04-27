@@ -6,10 +6,13 @@ class Cover extends React.Component {
     state = {  }
     render() { 
         return (
+            <Container>
+            <Row className="justify-content-center mt-3">
+                
             
-            
-            
+            {
             books.map(book => (
+                <Col sm={12} lg={3}>
                 <Card >
         <Card.Img variant="top" src={book.img} />
         <Card.Body>
@@ -20,10 +23,14 @@ class Cover extends React.Component {
           
         </Card.Body>
       </Card>
+      </Col>
      
-      )) );
-            
-        
+      )) 
+    }
+      
+                </Row>
+            </Container>
+        )  
     }
 }
  
