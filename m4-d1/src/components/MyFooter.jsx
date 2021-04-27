@@ -8,7 +8,7 @@ class Footer extends React.Component {
            
 			<Container
 				fluid
-				className="mt-5 fixed-bottom px-0 mx-0"
+				className="mt-5  px-0 mx-0"
 			>
 				<Card >
 					<Card.Header className='text-center'>Footer</Card.Header>
